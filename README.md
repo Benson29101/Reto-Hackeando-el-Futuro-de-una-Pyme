@@ -14,12 +14,15 @@
 - Efecto **glitch** en el título principal y como nombre del negocio
 - Animaciones: brillo en el banner, latido del logo, hovers en botones, tarjetas y enlaces.
 - Totalmente **responsive** (se adapta a celular).
-- **Modo oscuro y modo claro** con variables CSS.
 
 ### JavaScript
 - **Pantalla de error inicial** que simula un fallo de conexión y se recupera al hacer clic.
 - **Easter egg**: escribe la palabra `hack` con el teclado para descubrir un código de descuento.
 - **Chatbot** ("Cáceres-Bot") que responde preguntas sobre servicios, horarios, entrega y ubicación.
+
+### Extra
+- **Modo oscuro y modo claro** con variables CSS.
+- *API de WhatsApp* (wa.me) para el envío de pedidos
 
 ---
 
