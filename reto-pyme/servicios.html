@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios Reinventados — Col. Cáceres</title>
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Aquí no hay pantalla de error, entra directo al contenido -->
+    <div id="contenido">
+
+        <header id="banner">
+            <img src="imagenes/Logo.png" alt="Logo del Colmado Cáceres" class="logo" width="150" height="150">
+            <h1 class="glitch" data-text="Col. Cáceres">Col. Cáceres</h1>
+            <h2>De todo y algo más — Reedición 2026</h2>
+
+            <nav>
+                <a href="index.html">Historia</a>
+                <a href="servicios.html" class="activo">Servicios</a>
+                <a href="información.html">Información</a>
+                <button id="btn-carrito">Carrito (<span id="cart-count">0</span>)</button>
+                <button id="btn-modo">Modo Oscuro</button>
+            </nav>
+        </header>
+
+        <main>
+
+            <section class="servicios-nuevos">
+                <h2>Servicios Reinventados</h2>
+                <p>Después del incidente, no solo volvimos: <strong>evolucionamos</strong>. Estos son los servicios que ahora ofrecemos:</p>
+
+                <div class="tarjetas">
+                    <article class="tarjeta">
+                        <h3>Entrega a Domicilio Express</h3>
+                        <p>Llevamos tu pedido a las casas cercanas en menos de 15 minutos.</p>
+                    </article>
+                    <article class="tarjeta">
+                        <h3>Botellón de Agua</h3>
+                        <p>Recarga de botellón a solo <strong>RD$60</strong>. Pide por WhatsApp y te lo llevamos.</p>
+                    </article>
+                    <article class="tarjeta">
+                        <h3>Pedido por WhatsApp</h3>
+                        <p>Haz tu pedido sin llamar. Escríbenos y te confirmamos en segundos.</p>
+                    </article>
+                    <article class="tarjeta">
+                        <h3>Privacidad y seguridad</h3>
+                        <p>Nuestro inventario ahora respaldado en la nube. Nunca más perderemos datos.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="info-servicios">
+                <h2>Información</h2>
+                <p><strong>Horario:</strong> 7:30 AM - 10:00 PM (todos los días)</p>
+                <p><strong>Teléfono:</strong> 849-620-9966</p>
+                <p><strong>WhatsApp:</strong> <a href="https://wa.me/18496209966" target="_blank">Escríbenos aquí</a></p>
+                <p><strong>Dirección:</strong> Santo Domingo Este, San Isidro, Carretera Mella</p>
+                <img src="imagenes/Negocio.jpeg" alt="Fachada del Colmado Cáceres" class="foto-negocio">
+            </section>
+
+            <section class="productos-section">
+                <h2>Productos</h2>
+                <p>Agrega productos al carrito y pide directo por WhatsApp.</p>
+                <div class="catalogo">
+
+                    <div class="producto" data-nombre="Aceite Crisol 16oz" data-precio="110">
+                        <img src="imagenes/CRISOL-16-OZ.png" alt="Aceite Crisol de 16 onzas">
+                        <p>Aceite Crisol 16oz. <strong>RD$110.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Aceite Crisol 8oz" data-precio="60">
+                        <img src="imagenes/CRISOL-8-OZ.webp" alt="Aceite de 8 onzas">
+                        <p>Aceite Crisol 8oz. <strong>RD$60.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Leche Rica 350ml" data-precio="80">
+                        <img src="imagenes/Leche Rica Evaporada 350ml.jpg" alt="Leche Rica Evaporada 350ml">
+                        <p>Leche Evaporada 350ml. <strong>RD$80.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Leche Rica 265ml" data-precio="55">
+                        <img src="imagenes/Leche Rica Evaporada 265ml.jpg" alt="Leche Rica Evaporada 265ml">
+                        <p>Leche Evaporada 265ml. <strong>RD$55.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Leche Carnation" data-precio="80">
+                        <img src="imagenes/Leche Carnation.webp" alt="Lata de leche Carnation">
+                        <p>Leche Carnation. <strong>RD$80.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Plátano" data-precio="30">
+                        <img src="imagenes/Platano.png" alt="Plátanos verdes frescos">
+                        <p>Plátano. <strong>RD$30.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Huevos (2 unidades)" data-precio="15">
+                        <img src="imagenes/Carton de huevos.jpg" alt="Cartón de huevos">
+                        <p>Huevos. <strong>2 x RD$15.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Papas (libra)" data-precio="40">
+                        <img src="imagenes/Papas.webp" alt="Papas frescas">
+                        <p>Papas. <strong>RD$40.00 x LB</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Cebolla (libra)" data-precio="60">
+                        <img src="imagenes/Cebolla morada.jpg" alt="Cebolla morada">
+                        <p>Cebolla. <strong>RD$60.00 x LB</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Jitomate (libra)" data-precio="45">
+                        <img src="imagenes/jitomate.png" alt="Jitomate fresco">
+                        <p>Jitomate. <strong>RD$45.00 x LB</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Limón" data-precio="10">
+                        <img src="imagenes/Limón.jpg" alt="Limones verdes">
+                        <p>Limón. <strong>RD$10.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Papel higiénico" data-precio="40">
+                        <img src="imagenes/Papel higiénico.jpg" alt="Rollo de papel higiénico">
+                        <p>Papel Higiénico. <strong>RD$40.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Vive 100" data-precio="50">
+                        <img src="imagenes/Vive 100.webp" alt="Vive 100">
+                        <p>Vive 100. <strong>RD$50.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Gatorade" data-precio="60">
+                        <img src="imagenes/Gatorade.jpg" alt="Gatorade">
+                        <p>Gatorade. <strong>RD$60.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Malta Morena" data-precio="50">
+                        <img src="imagenes/Malta morena.jpg" alt="Malta Morena">
+                        <p>Malta Morena. <strong>RD$50.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Coco de agua" data-precio="70">
+                        <img src="imagenes/Coco de agua.png" alt="Coco de agua">
+                        <p>Coco de agua. <strong>RD$70.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Coca Cola 500ml" data-precio="35">
+                        <img src="imagenes/Coca Cola 500ml.png" alt="Coca Cola 500ml">
+                        <p>Coca Cola 500ml. <strong>RD$35.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Country Club" data-precio="30">
+                        <img src="imagenes/Country Club.webp" alt="Country Club">
+                        <p>Country Club. <strong>RD$30.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Jugo casero" data-precio="30">
+                        <img src="imagenes/Jugo casero.webp" alt="Jugo casero">
+                        <p>Jugo casero. <strong>RD$30.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                    <div class="producto" data-nombre="Botella de agua" data-precio="20">
+                        <img src="imagenes/Botella de agua Planeta Azul.jpg" alt="Botella de agua Planeta Azul">
+                        <p>Botella de agua. <strong>RD$20.00</strong></p>
+                        <button class="btn-agregar">Agregar</button>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Col. Cáceres &copy; 2026 — Resucitado digitalmente</p>
+        </footer>
+    </div>
+
+    <!-- Panel del carrito -->
+    <div id="carrito-panel" class="oculto">
+        <div id="carrito-header">
+            <span>Tu carrito</span>
+            <button id="carrito-cerrar">X</button>
+        </div>
+        <div id="carrito-items"></div>
+        <div id="carrito-total">Total: RD$0</div>
+        <button id="carrito-whatsapp">Pedir por WhatsApp</button>
+    </div>
+
+    <!-- Chatbot -->
+    <button id="chat-toggle" aria-label="Abrir chat">?</button>
+
+    <div id="chat-ventana" class="oculto">
+        <div id="chat-header">
+            <span>Cáceres-Bot</span>
+            <button id="chat-cerrar">X</button>
+        </div>
+        <div id="chat-mensajes">
+            <div class="msg bot">Hola, soy Cáceres-Bot. Puedes preguntarme sobre servicios, horarios o entrega a domicilio.</div>
+        </div>
+        <div id="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Escribe tu pregunta...">
+            <button id="chat-enviar">Enviar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

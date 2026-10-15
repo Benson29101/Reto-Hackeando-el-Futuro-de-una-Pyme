@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resurrección Digital - Col. Cáceres</title>
+    <link rel="icon" type="image/png" href="Logo.png">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <!-- Pantalla de error -->
+    <div id="pantalla-error">
+        <div class="error-contenido">
+            <p class="codigo">ERROR 404</p>
+            <h1 class="glitch" data-text="SISTEMA COMPROMETIDO">SISTEMA COMPROMETIDO</h1>
+            <p class="linea">La conexión con <strong>colmadocaceres.com.do</strong> fue rechazada.</p>
+            <p class="linea">El servidor dejó de responder. El sitio fue borrado.</p>
+            <p class="linea parpadeo">_</p>
+            <button id="btn-recuperar">Reintentar conexión</button>
+        </div>
+    </div>
+
+    <!-- Contenido real del sitio -->
+    <div id="contenido" class="oculto">
+
+        <header id="banner">
+            <img src="imagenes/Logo.png" alt="Logo del Colmado Cáceres" class="logo" width="150" height="150">
+            <h1 class="glitch" data-text="Col. Cáceres">Col. Cáceres</h1>
+            <h2>De todo y algo más — Reedición 2026</h2>
+
+            <nav>
+                <a href="index.html" class="activo">Historia</a>
+                <a href="servicios.html">Servicios</a>
+                <a href="información.html">Información</a>
+                <button id="btn-carrito">Carrito (<span id="cart-count">0</span>)</button>
+                <button id="btn-modo">Modo Oscuro</button>
+            </nav>
+        </header>
+
+        <main>
+            <section class="historia">
+                <h2>El Incidente</h2>
+                <p>La noche del <strong>3 de octubre de 2026</strong>, algo extraño pasó en el <strong>Colmado Cáceres</strong>. 
+                    Los clientes llamaban preguntando si habíamos cerrado. Nadie nos encontraba en Google, ni en redes, ni en ningún lado. 
+                    Nuestra página web... <span class="rojo">desapareció</span>.</p>
+
+                <p>Al día siguiente, encontramos un <strong>USB</strong> en el mostrador con una nota:</p>
+
+                <blockquote>
+                    "Tu negocio ha sido borrado de la existencia digital. Si quieres recuperarlo, deberás reinventarlo. 
+                    Usa la tecnología, la creatividad y tu ingenio para traerlo de vuelta."
+                </blockquote>
+
+                <p>Y eso hicimos. <strong>Reconstruimos el Colmado Cáceres desde cero</strong>, 
+                    más fuerte, más rápido y más conectado que antes. Esta es nuestra historia de resurrección digital.</p>
+            </section>
+
+            <section class="linea-tiempo">
+                <h2>Línea de tiempo del ataque</h2>
+                <ul>
+                    <li><strong>23:45</strong> — Última venta registrada en el sistema.</li>
+                    <li><strong>23:50</strong> — Tráfico inusual detectado en el router del colmado.</li>
+                    <li><strong>00:00</strong> — Dominio web deja de responder. Redes sociales eliminadas.</li>
+                    <li><strong>06:15</strong> — Empleados llegan y descubren todo borrado.</li>
+                    <li><strong>08:30</strong> — Se encuentra el USB con el mensaje misterioso.</li>
+                    <li><strong>HOY</strong> — Estás viendo la nueva versión del Colmado Cáceres. <span class="verde">Sistema restaurado</span></li>
+                </ul>
+            </section>
+
+            <section class="cta">
+                <h2>¿Listo para ver lo nuevo?</h2>
+                <a href="servicios.html" class="boton-grande">Explorar Servicios Reinventados</a>
+            </section>
+        </main>
+
+        <footer>
+            <p>Col. Cáceres &copy; 2026 — Resucitado digitalmente</p>
+            <p class="pista">Pista: escribe la palabra que usaría un hacker...</p>
+        </footer>
+    </div>
+
+    <!-- Easter egg -->
+    <div id="easter-egg" class="oculto">
+        <h3>CÓDIGO SECRETO ENCONTRADO</h3>
+        <p>Usa el código <strong>6DEJULIO</strong> en tu próxima compra y llévate un <strong>10% de descuento</strong>.</p>
+        <p class="pista2">— Los fundadores del Col. Cáceres</p>
+    </div>
+
+    <!-- Panel del carrito -->
+    <div id="carrito-panel" class="oculto">
+        <div id="carrito-header">
+            <span>Tu carrito</span>
+            <button id="carrito-cerrar">X</button>
+        </div>
+        <div id="carrito-items"></div>
+        <div id="carrito-total">Total: RD$0</div>
+        <button id="carrito-whatsapp">Pedir por WhatsApp</button>
+    </div>
+
+    <!-- Chatbot -->
+    <button id="chat-toggle" aria-label="Abrir chat">?</button>
+
+    <div id="chat-ventana" class="oculto">
+        <div id="chat-header">
+            <span>Cáceres-Bot</span>
+            <button id="chat-cerrar">X</button>
+        </div>
+        <div id="chat-mensajes">
+            <div class="msg bot">Hola, soy Cáceres-Bot. Puedes preguntarme sobre servicios, horarios, entrega a domicilio o cómo llegar.</div>
+        </div>
+        <div id="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Escribe tu pregunta...">
+            <button id="chat-enviar">Enviar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
